@@ -1,0 +1,82 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "titulo": "Elaborar informe mensual",
+      "prioridad": "ALTA",
+      "estado": "EN_PROCESO",
+      "asignadoA": 2,
+      "descripcion": "Consolidar las métricas operativas de la semana"
+    },
+    {
+      "id": 2,
+      "titulo": "Revisar inventario",
+      "prioridad": "MEDIA",
+      "estado": "NO_INICIADO",
+      "asignadoA": 2,
+      "descripcion": null
+    },
+    {
+      "id": 3,
+      "titulo": "Planificar reunión de equipo",
+      "prioridad": "BAJA",
+      "estado": "HECHO",
+      "asignadoA": 1,
+      "descripcion": "Coordinar sala y agenda"
+    },
+    {
+      "id": 4,
+      "titulo": "Auditoría de seguridad",
+      "prioridad": "ALTA",
+      "estado": "HECHO",
+      "asignadoA": 3,
+      "descripcion": "Revisar accesos al sistema"
+    },
+    {
+      "id": 5,
+      "titulo": "Revisar presupuesto anual",
+      "prioridad": "MEDIA",
+      "estado": "EN_PROCESO",
+      "asignadoA": 1,
+      "descripcion": null
+    },
+    {
+      "id": 6,
+      "titulo": "Aprender closures en Python",
+      "prioridad": "ALTA",
+      "estado": "NO_INICIADO",
+      "asignadoA": 3,
+      "descripcion": "Repasar conceptos de programación funcional"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Carlos Mendoza",
+      "correo": "carlos@empresa.com",
+      "password": "123",
+      "rol": "JEFE"
+    },
+    {
+      "id": 2,
+      "nombre": "Juan Pérez",
+      "correo": "juan@empresa.com",
+      "password": "456",
+      "rol": "TRABAJADOR"
+    },
+    {
+      "id": 3,
+      "nombre": "Ronald Parraga ",
+      "correo": "davidparraga@gmail.com",
+      "password": "123",
+      "rol": "TRABAJADOR"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana Gómez",
+      "correo": "ana@empresa.com",
+      "password": "789",
+      "rol": "TRABAJADOR"
+    }
+  ]
+}
