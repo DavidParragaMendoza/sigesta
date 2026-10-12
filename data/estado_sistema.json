@@ -47,6 +47,38 @@
       "estado": "NO_INICIADO",
       "asignadoA": 3,
       "descripcion": "Repasar conceptos de programación funcional"
+    },
+    {
+      "id": 7,
+      "titulo": "Testeo de software",
+      "prioridad": "ALTA",
+      "estado": "NO_INICIADO",
+      "asignadoA": 5,
+      "descripcion": "testear el software de sigesta"
+    },
+    {
+      "id": 8,
+      "titulo": "tarea 2",
+      "prioridad": "ALTA",
+      "estado": "HECHO",
+      "asignadoA": 5,
+      "descripcion": null
+    },
+    {
+      "id": 9,
+      "titulo": "TESTEO DE SOFTWARE",
+      "prioridad": "ALTA",
+      "estado": "HECHO",
+      "asignadoA": 6,
+      "descripcion": "probrar el software de sigesta"
+    },
+    {
+      "id": 10,
+      "titulo": "tareanueva",
+      "prioridad": "MEDIA",
+      "estado": "HECHO",
+      "asignadoA": 6,
+      "descripcion": null
     }
   ],
   "usuarios": [
@@ -76,6 +108,20 @@
       "nombre": "Ana Gómez",
       "correo": "ana@empresa.com",
       "password": "789",
+      "rol": "TRABAJADOR"
+    },
+    {
+      "id": 5,
+      "nombre": "ronald mendoza",
+      "correo": "mendoza@gmail.com",
+      "password": "987",
+      "rol": "TRABAJADOR"
+    },
+    {
+      "id": 6,
+      "nombre": "USUARION",
+      "correo": "usuarion@gmail.com",
+      "password": "123",
       "rol": "TRABAJADOR"
     }
   ]
