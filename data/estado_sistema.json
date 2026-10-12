@@ -36,7 +36,7 @@
       "id": 5,
       "titulo": "Revisar presupuesto anual",
       "prioridad": "MEDIA",
-      "estado": "EN_PROCESO",
+      "estado": "HECHO",
       "asignadoA": 1,
       "descripcion": null
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "titulo": "Aprender closures en Python",
       "prioridad": "ALTA",
-      "estado": "NO_INICIADO",
+      "estado": "HECHO",
       "asignadoA": 3,
       "descripcion": "Repasar conceptos de programación funcional"
     },
@@ -78,6 +78,70 @@
       "prioridad": "MEDIA",
       "estado": "HECHO",
       "asignadoA": 6,
+      "descripcion": null
+    },
+    {
+      "id": 11,
+      "titulo": "tarea de prueba",
+      "prioridad": "BAJA",
+      "estado": "NO_INICIADO",
+      "asignadoA": 3,
+      "descripcion": "no hay."
+    },
+    {
+      "id": 12,
+      "titulo": "Tarea de Prueba 2",
+      "prioridad": "ALTA",
+      "estado": "HECHO",
+      "asignadoA": 7,
+      "descripcion": "Texto de Prueba 2"
+    },
+    {
+      "id": 13,
+      "titulo": "tarea de prueba 3",
+      "prioridad": "ALTA",
+      "estado": "HECHO",
+      "asignadoA": 8,
+      "descripcion": null
+    },
+    {
+      "id": 14,
+      "titulo": "tarea 4",
+      "prioridad": "MEDIA",
+      "estado": "NO_INICIADO",
+      "asignadoA": 8,
+      "descripcion": null
+    },
+    {
+      "id": 15,
+      "titulo": "Tarea final",
+      "prioridad": "ALTA",
+      "estado": "NO_INICIADO",
+      "asignadoA": 8,
+      "descripcion": "revisa la tarea"
+    },
+    {
+      "id": 16,
+      "titulo": "revisar y hablar con jefe",
+      "prioridad": "ALTA",
+      "estado": "HECHO",
+      "asignadoA": 9,
+      "descripcion": null
+    },
+    {
+      "id": 17,
+      "titulo": "reviar la documentacion de sigesta",
+      "prioridad": "ALTA",
+      "estado": "HECHO",
+      "asignadoA": 9,
+      "descripcion": "reivsar ."
+    },
+    {
+      "id": 18,
+      "titulo": "prueba3",
+      "prioridad": "ALTA",
+      "estado": "HECHO",
+      "asignadoA": 9,
       "descripcion": null
     }
   ],
@@ -121,6 +185,27 @@
       "id": 6,
       "nombre": "USUARION",
       "correo": "usuarion@gmail.com",
+      "password": "123",
+      "rol": "TRABAJADOR"
+    },
+    {
+      "id": 7,
+      "nombre": "Usuario Nuevo",
+      "correo": "nuevo@empresa.com",
+      "password": "123456",
+      "rol": "TRABAJADOR"
+    },
+    {
+      "id": 8,
+      "nombre": "usuarionuevo2",
+      "correo": "nuevo2@empresa.com",
+      "password": "123",
+      "rol": "TRABAJADOR"
+    },
+    {
+      "id": 9,
+      "nombre": "pepe prueba",
+      "correo": "pepe@empresa.com",
       "password": "123",
       "rol": "TRABAJADOR"
     }

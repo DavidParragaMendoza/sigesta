@@ -39,3 +39,17 @@ Función pura: aplica el closure sobre 'filter' para listar tareas del usuario.
 def obtenerTareasPorUsuario(tareas: tuple[Tarea, ...], idUsuario: int) -> tuple[Tarea, ...]:
     filtroAsignado = crearFiltroPorAsignado(idUsuario)
     return tuple(filter(filtroAsignado, tareas))
+
+
+'''
+Función pura: filtra y retorna las tareas asignadas al personal (trabajadores).
+Permite opcionalmente excluir un ID específico (por ejemplo, el ID del jefe).
+'''
+def obtenerTareasDelPersonal(tareas: tuple[Tarea, ...], usuarios: tuple[Usuario, ...], idExcluido: int = None) -> tuple[Tarea, ...]:
+    idsTrabajadores = set(
+        map(
+            lambda u: u.id,
+            filter(lambda u: u.rol == "TRABAJADOR" and (idExcluido is None or u.id != idExcluido), usuarios)
+        )
+    )
+    return tuple(filter(lambda t: t.asignadoA in idsTrabajadores, tareas))
