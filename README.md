@@ -143,7 +143,7 @@ python main.py --cli
 > **Enlace pendiente:** reemplaza el texto siguiente por la URL final de
 > YouTube cuando el video esté publicado.
 
-🔗 **[Ver el video explicativo en YouTube](PEGAR_AQUI_EL_ENLACE_DE_YOUTUBE)**
+🔗 **[Ver el video explicativo en YouTube](https://youtu.be/pSkeh_cTgl0?si=UWoozDj4R_1nh3sY)**
 
 El video debe mostrar dónde están la HOF, el `match/case`, el closure, la
 inmutabilidad, las funciones puras, los efectos secundarios y las decisiones
